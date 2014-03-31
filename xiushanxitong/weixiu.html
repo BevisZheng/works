@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>tkengine修缮管理系统</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="css/weixiu.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tab.js"></script>
+</head>
+<body>
+	<div class="main">
+		<p class="typ">维修查询</p>
+		<div class="tybqw">
+			<div class="tybq">
+				<span class="curren">零星维修</span>
+				<span>专项维修(非招标)</span>
+				<span>专项维修(招标)</span>
+				<span>维修员统计</span>
+			</div>
+		</div>
+		<div id="tab">
+		<div class="tjss">
+			<form action="#">
+				<select name="tjxz" id="tjxz">
+					<option value="bianhao">报修编号</option>
+					<option value="danwei">报修单位</option>
+					<option value="renyuan">报修人员</option>
+					<option value="quyu">报修区域</option>
+					<option value="shijian">报修时间</option>
+					<option value="wenti">报修问题</option>
+					<option value="zhuangtai">报修状态</option>
+					<option value="shigong">施工单位</option>
+					<option value="huanji">缓急程度</option>
+					<option value="jine">结算金额</option>
+					<option value="leibie">维修类别</option>
+				</select>
+				<input type="text" class="sousuo" id="sousuo"/>
+				<input type="submit" class="chaxun" id="chaxun" value="查询"/>
+			</form>
+		</div>
+		<table cellspacing="0">
+			<tr class="th">
+				<td class="ckt"><div class="ckb"><input type="checkbox" hidefocus=true/></div></td>
+				<td>报修编号</td>
+				<td>存在问题</td>
+				<td>报修部门</td>
+				<td>报修人员</td>
+				<td>报修时间</td>
+				<td>施工单位</td>
+				<td>维修状态</td>
+				<td>服务评价</td>
+				<td>结算金额</td>
+			</tr>
+			<tr class="thd changecolor">
+				<td width="40"><div class="ckb"><input type="checkbox" hidefocus=true/></div></td>
+				<td><a href="#">SG20130515171858</a></td>
+				<td width="198"><div class="reason">靠阳台的风扇不转报修了数不清多少次了
+				靠阳台的风扇不转报修了数不清多少次了</div></td>
+				<td width="84"><div class="bxbm">学位办公室、学科建设办公室</div></td>
+				<td>西门吹雪</td>
+				<td>2013/05/15</td>
+				<td width="150"><div class="company">广东省蕉岭县建筑工程公司广州分公司</div></td>
+				<td>未受理</td>
+				<td>未评价</td>
+				<td>402,000</td>
+			</tr>
+						<tr class="thd">
+				<td width="40"><div class="ckb"><input type="checkbox" hidefocus=true/></div></td>
+				<td><a href="#">SG20130515171858</a></td>
+				<td width="198"><div class="reason">靠阳台的风扇不转报修了数不清多少次了
+				靠阳台的风扇不转报修了数不清多少次了</div></td>
+				<td width="84"><div class="bxbm">后勤部门</div></td>
+				<td>西门吹雪</td>
+				<td>2013/05/15</td>
+				<td width="150"><div class="company">广东省蕉岭县建筑工程公司广州分公司</div></td>
+				<td>未受理</td>
+				<td>未评价</td>
+				<td>402,000</td>
+			</tr>
+				<tr class="thd changecolor">
+				<td width="40"><div class="ckb"><input type="checkbox" hidefocus=true/></div></td>
+				<td><a href="#">SG20130515171858</a></td>
+				<td width="198"><div class="reason">靠阳台的风扇不转报修了数不清多少次了</div></td>
+				<td width="84"><div class="bxbm">后勤部门</div></td>
+				<td>西门吹雪</td>
+				<td>2013/05/15</td>
+				<td width="150"><div class="company">广东省蕉岭县建筑工程公司广州分公司</div></td>
+				<td>未受理</td>
+				<td>未评价</td>
+				<td>402,000</td>
+			</tr>
+		</table>
+		<div class="tjst">
+			<form action="#">
+				<div class="cbc"><input type="checkbox" class="cball" id="cball"/></div>
+				<input type="submit" value="删除" class="shanchu" id="shanchu" />
+			</form>
+		</div>
+		<div class="fanye">
+			<p>共 986 条记录，每页 10 条记录，当前第 <span>1/97</span> 页，跳到 <input type="text" id="yeshu" class="yeshu"> 页</p>
+			<div class="yema">
+				<ul>
+					<li><a href="#" class="now">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

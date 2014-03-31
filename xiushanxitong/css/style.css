@@ -1,0 +1,76 @@
+.wrap{
+	margin: 0 auto;
+	width: 1365px;
+}
+.header{
+	padding: 22px 44px 18px 66px;
+	height: 40px;
+	background: url(../images/bg.jpg) right 0 no-repeat #1764a5;
+}
+.logo{
+	float: left;
+	width: 185px;
+	height: 41px;
+	text-indent: -9999px;
+	background: url(../images/logo.jpg) 0 0 no-repeat;
+}
+.day{
+	padding: 25px 0 0 40px;
+	float: left;
+	color: #fff;
+}
+.logout{
+	float: right;
+	padding-top: 25px;
+}
+#out{text-decoration: none;}
+#out:hover{text-decoration: underline;}
+.logout,#out{
+	color: #fff;
+}
+.sideBar{
+	float: left;
+	width: 250px;
+	height: 884px;
+	background-color: #f2f2f2;
+}
+.tab1,.tab2,.tab3,.tab4{
+	font-size: 18px;
+	line-height: 28px;
+	padding: 12px 0 12px 58px;
+	color: #fff;
+	cursor: pointer;
+}
+.tab1{
+	background: url(../images/wx.jpg) 21px 12px no-repeat #36c87b;
+}
+.tab2 {
+	background: url(../images/tj.jpg) 21px 12px no-repeat #fb5341;
+}
+.tab3 {
+	background: url(../images/yh.jpg) 21px 12px no-repeat #f7aa33;
+}
+.tab4 {
+	background: url(../images/index_17.jpg) 21px 12px no-repeat #01a9eb;
+}
+.sideBar li{
+	text-align: center;
+	font-size: 16px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.div1 .tabnow,.div2 .tabnow,.div3 .tabnow,.div4 .tabnow{
+	background-color: #fff;
+}
+.div1 .tabnow{
+	color: #36c87b;
+}
+.div2 .tabnow{
+	color: #fb5341;
+}
+.div3 .tabnow{
+	color: #f7aa33;
+}
+.div4 .tabnow{
+	color: #01a9eb;
+}

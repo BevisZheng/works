@@ -1,0 +1,166 @@
+/*基本样式*/
+body,div,h1,ul,p,b,strong,label,input,img,span{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 12px "Microsoft YaHei", SimHei, sans-serif; color: #ACACAC;
+}
+img{
+	border: 0;
+}
+ul{
+	list-style: none;
+}
+a{text-decoration:none;}
+/*header css begin*/
+.header{
+	height: 180px;
+	background: url(../images/headerBg.jpg) 0 0 repeat-x;
+}
+.inner{
+	margin: 0 auto;
+	width: 984px;
+	overflow: hidden;
+}
+.logo{
+	display: block;
+	float: left;
+	height: 116px;
+	width: 196px;
+	background: url(../images/tk.jpg) 0 0 no-repeat;
+	text-indent: -9999px;
+}
+.nav{
+	float: left;
+	padding: 50px 0 0 86px;
+	width: 478px;
+	overflow: hidden;
+	zoom: 1;
+}
+.nav li{
+	float: left;
+}
+.nav li a{
+	display: block;
+	margin-right: 32px;
+	height: 39px;
+	text-indent: -9999px;
+}
+a.shouye{
+	width: 46px;
+	background: url(../images/shouyeover.jpg) 0 0 no-repeat;
+}
+a.shouye:hover{
+	width: 46px;
+	background: url(../images/shouyeon.jpg) 0 0 no-repeat;
+}
+a.anli{
+	width: 100px;
+	background: url(../images/anlion.jpg) 0 0 no-repeat;
+}
+a.about{
+	width: 99px;
+	background: url(../images/aboutover.jpg) 0 0 no-repeat;
+}
+a.about:hover{
+	background: url(../images/abouton.jpg) 0 0 no-repeat;
+}
+a.contact{
+	width: 99px;
+	background: url(../images/contactover.jpg) 0 0 no-repeat;
+}
+a.contact:hover{
+	background: url(../images/contacton.jpg) 0 0 no-repeat;
+}
+#search{
+	float: left;
+	margin-top: 55px;
+	border: 2px solid #cecece;
+}
+#search input{float: left;}
+#searchInput{
+	padding: 8px 0 8px 8px;
+	width: 180px;
+	height: 14px;
+	border: none;
+	background: #F5F5F5;
+}
+#searchSurmit{
+	cursor: pointer;
+	border: none;
+	width: 32px;
+	height: 30px;
+	background: url(../images/search.jpg);
+	text-indent: -9999px;
+}
+/*header css finish*/
+/*main css begin*/
+.main{
+	overflow: hidden;
+	margin: 52px auto 0 auto;
+	width: 984px;
+}
+.sidebar{float: left;}
+.anlizs{
+	cursor:default;
+	margin-right: 28px;
+	padding: 11px 124px 10px 20px;
+	font-size: 18px;
+	color: #57C3FC;
+}
+.anlizs, #xiangmulist li{background: url(../images/anlibgover.jpg) 0 0 repeat-x;	border: 1px solid #CECECE;}
+#xiangmulist{margin-right: 28px;}
+#xiangmulist li{
+	cursor: pointer;
+	padding: 12px 76px 12px 75px;
+	font-size: 16px;
+	border-top: none;
+	text-align: center;
+}
+#xiangmulist .on{
+	color: #57C3FC;
+	background: url(../images/anlibgon.jpg) 0 0 repeat-x;
+}
+#showcase{
+	width: 737px;
+	float: left;
+}
+.dis{display: block;}
+.undis{display:none;}
+.showc{
+	cursor:default;
+	padding: 13px 0 6px 0;
+	border-top: 2px solid #CECECE;
+	font-size: 18px;
+	color: #57C3FC;
+}
+.example li{
+	float: left;
+	margin: 0 11px 22px 0;
+	padding: 36px 28px 25px 36px;
+	border: 1px solid #CECECE;
+	text-align: center;
+}
+.example li#last{margin-right: 0;}
+.example li a{
+	font-size: 16px;
+	color: #ACACAC;
+	text-decoration: none;
+}
+.example li a img{
+	margin-bottom: 12px;
+}
+/*main css finish*/
+/*footer*/
+.footer{
+		margin-top: 30px;
+		background: url("../images/footer_bg.png") repeat-x scroll 0 0;
+		height:95px;		
+}
+.inner01{margin:0 auto;text-align: center;width:984px;}
+.menu a,.inner01 p{color: #CFCFCF;font-size:14px;}
+.menu{padding-top:16px;}
+.menu a{padding:0 5px 7px;}
+.menu a:hover{color:#5ac2fe;}
+.inner01 p{cursor:default;}

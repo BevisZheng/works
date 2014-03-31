@@ -1,0 +1,233 @@
+/*基本样式*/
+body,div,h1,ul,p,input,img,span{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 12px "Microsoft YaHei", SimHei, sans-serif; color: #ACACAC;
+}
+img{
+	border: 0;
+}
+a{text-decoration: none;}
+ul{
+	list-style: none;
+}
+/*header css begin*/
+.header{
+	background: url(../images/headerBg.jpg) 0 0 repeat-x;
+}
+.inner{
+	margin: 0 auto;
+	padding-bottom: 62px;
+	width: 984px;
+	overflow: hidden;
+}
+.logo{
+	display: block;
+	float: left;
+	height: 116px;
+	width: 196px;
+	background: url(../images/tk.jpg) 0 0 no-repeat;
+	text-indent: -9999px;
+}
+.nav{
+	float: left;
+	padding: 50px 0 0 86px;
+	width: 478px;
+	overflow: hidden;
+	zoom: 1;
+}
+.nav li{
+	float: left;
+}
+.nav li a{
+	display: block;
+	margin-right: 32px;
+	height: 39px;
+	text-indent: -9999px;
+}
+a.shouye{
+	width: 46px;
+	background: url(../images/shouyeon.jpg) 0 0 no-repeat;
+}
+a.anli{
+	width: 100px;
+	background: url(../images/anliover.jpg) 0 0 no-repeat;
+}
+a.anli:hover{
+	background: url(../images/anlion.jpg) 0 0 no-repeat;
+}
+a.about{
+	width: 99px;
+	background: url(../images/aboutover.jpg) 0 0 no-repeat;
+}
+a.about:hover{
+	background: url(../images/abouton.jpg) 0 0 no-repeat;
+}
+a.contact{
+	width: 99px;
+	background: url(../images/contactover.jpg) 0 0 no-repeat;
+}
+a.contact:hover{
+	background: url(../images/contacton.jpg) 0 0 no-repeat;
+}
+#search{
+	float: left;
+	margin-top: 55px;
+	border: 2px solid #cecece;
+}
+#search input{float: left;}
+#searchInput{
+	padding: 8px 0 8px 8px;
+	width: 180px;
+	height: 14px;
+	border: none;
+	background: #F5F5F5;
+}
+#searchSurmit{
+	cursor: pointer;
+	border: none;
+	width: 32px;
+	height: 30px;
+	background: url(../images/search.jpg);
+	text-indent: -9999px;
+}
+/*header css finish*/
+/*main css begin*/
+.main{
+	margin: 0 auto;
+	width: 984px;
+}
+/*introduce*/
+.introduce{
+	padding-bottom: 42px;
+	border-bottom: 1px solid #cecece;
+	overflow: hidden;
+	zoom: 1;
+}
+.fs18{
+	cursor:default;
+	padding: 24px 0 18px 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+.huadongmeng{
+	position: relative;
+	float: left;
+	padding-right: 24px;
+}
+.introducetxt{
+	cursor:default;
+	float: left;
+	padding: 16px 27px;
+	width: 246px;
+	border: 5px solid #cecece;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*xiangmu*/
+.xiangmu,.anlizhanshi,.contactus,.joinus{
+	overflow: hidden;
+	zoom: 1;
+	border: 1px solid #cecece;
+}
+.xiangmu div{
+	float: left;
+}
+.xiangmu img{
+	margin-bottom: 16px;
+	border: 1px solid #cecece;
+}
+.qianduan,.houtai,.yidong{
+	padding: 20px 12px 10px 12px;
+	border-right: 1px solid #cecece;
+}
+.fs16{
+	cursor:default;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.fs14{
+	cursor:default;
+	width: 300px;
+	font-size: 14px;
+}
+.yidong{
+	border: none;
+}
+/*zhanshi*/
+.zhanshi{padding-bottom: 26px;}
+.fs18 .more{
+	padding-left: 6px;
+	font-size: 12px;
+	color: #5AC3FF;
+}
+.anlizhanshi{
+	padding: 12px 0 12px 12px;
+}
+.anlizhanshi img{
+	margin-right: 11px;
+	border: 1px solid #cecece;
+}
+.last img{margin: 0;}
+/*lastcontant*/
+.lastcontant{overflow: hidden;}
+.contactus,.joinus{
+	padding: 30px 12px 30px 30px;
+}
+.contactus{float: left;}
+.joinus{float: right;}
+.cont,.join{
+	cursor:default;
+	display: block;
+	float: left;
+	width: 273px;
+	height: 140px;
+	text-indent: -9999px;
+}
+.cont{background: url(../images/contact.jpg) 0 0 no-repeat;}
+.join{background: url(../images/joinus.jpg) 0 0 no-repeat;}
+.fz16txt{
+	cursor:default;
+	float: left;
+	padding: 18px 0 0 18px;
+	width: 154px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.dis{display: block;}
+.undis{display:none;}
+.FocusPic{position: relative;}
+#PicNums{
+	position: absolute;
+	top: 320px;
+	left: 0;
+}
+#PicNums .on{background: #5AC3FF;}
+#BigPics{filter:progid:DXImageTransform.Microsoft.Fade ( duration=0.5,overlap=1.0 );}
+#PicNums ul{padding: 5px 0 5px 534px;overflow: hidden;zoom: 1;}
+#PicNums ul li{
+	float: left; 
+	width: 20px;
+	font: 12px/20px bold Arial, Helvetica, sans-serif;color:  #fff;
+	margin-right: 1px;
+	line-height:20px;
+	background: #979797;
+	cursor: pointer;
+	text-align: center;
+}
+/*main css finish*/
+/*footer*/
+.footer{
+		margin-top: 30px;
+		background: url("../images/footer_bg.png") repeat-x scroll 0 0;
+		height:95px;		
+}
+.inner01{margin:0 auto;text-align: center;width:984px;}
+.menu a,.inner01 p{color: #CFCFCF;font-size:14px;}
+.menu{padding-top:16px;}
+.menu a{padding:0 5px 7px;}
+.menu a:hover{color:#5ac2fe;}
+.inner01 p{cursor:default;}

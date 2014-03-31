@@ -1,0 +1,98 @@
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form{margin:0}
+body,button,input,select,textarea{font:12px/1.5 "微软雅黑",tahoma,'\5b8b\4f53',sans-serif}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+em,b{font-style:normal}
+a{text-decoration:none;color:#797979}
+a:hover{text-decoration:underline}
+img{border:0}
+button,input,select,textarea{font-size:100%;outline:0}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{padding:0}
+ul{list-style-type:none}
+.clearfix:before,.clearfix:after{content:".";display:block;height:0;visibility:hidden}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+body{color:#797979;background:url(../images/wrap_bg.jpg) 50% 0 no-repeat #E2582C}
+.wrap{padding-bottom:92px;width:1200px;margin:0 auto}
+.content{position:relative;margin:0 auto;width:1000px;background:url(../images/content_bg.jpg) 0 0 no-repeat}
+.header-banner{height:0;overflow:hidden}
+.header-nav{padding:294px 48px 30px 53px}
+.welfare{display:block;float:left;margin-left:2px;width:298px;height:110px}
+.welfare:hover{text-decoration:none}
+.welfare-title{display:block;padding:5px 0 2px 127px;font-size:18px;color:#FFE89F}
+.welfare-content{font-size:24px;color:#CF3B17}
+.welfare-title,.welfare-content{font-weight:bold}
+.content-wrap{margin:0 auto;width:960px;margin-bottom:18px}
+.welfare-header{position:relative;background:#FDFB68}
+.welfare-topic,.act-topic{height:44px;line-height:44px}
+.welfare-topic span{display:block;float:left;padding-right:55px;padding-left:28px;font-size:24px;color:#FDFB68;background:url(../images/welfare_bg.jpg) right 0 no-repeat #FE6E00}
+.welfare-topic i{color:#FB6A00}
+.topic-big{padding-left:4px;padding-right:6px;font-size:24px}
+.topic-small{font-weight:bold;font-size:14px}
+.coupon{position:absolute;right:10px;top:6px;text-align:right}
+.coupon a{color:#9F0505}
+.welfare1-list{padding:30px 20px}
+.welfare1-list,.welfare2-list,.welfare3-list,.act-content{background:#FFF}
+.welfare1-list-item{float:left;width:300px;margin-left:10px}
+.welfare1-list-item img{margin-bottom:16px}
+.highlight{color:#F00}
+.receive{float:left;margin-bottom:10px;padding-left:8px;width:120px;line-height:24px;font-size:14px;color:#797979}
+.receive-btn{display:block;float:left;width:161px;height:44px;background-position:0 0;text-indent:-9999px}
+.receive-btn,.vie,.lottery-btn{background-image:url(../images/btn-grow.png)}
+.received{background-position:161px 0;*background-position:162px 0}
+.welfare2-list{padding:30px 20px 4px 20px}
+.welfare2-list-item{margin-left:12px;float:left;width:221px}
+.welfare2-item-topic{display:block;width:209px;padding-left:12px;line-height:22px}
+.price_new{padding-left:8px;padding-right:8px;font-size:18px}
+.commodity-content{margin-top:8px;margin-bottom:18px;padding:10px 10px;background:#EDEDED}
+.rebates-item,.vie{float:left}
+.rebates{display:block;float:left;padding:0 2px;height:16px;background:red;color:#FFF;overflow:hidden}
+.vie{display:block;float:right;margin-top:2px;width:60px;height:34px;background-position:-262px -44px;text-indent:-9999px}
+.vied{background-position:-262px -80px}
+.welfare3-list{padding:12px 8px}
+.lottery{float:left}
+.lottery,.winning{background:#FFFEDF;border-left:1px solid #fdf3f0;border-bottom:1px solid #f9dcd3;border-right:1px solid #fdf3f0}
+.lottery-item1{float:left;width:360px}
+.lottery-imformation{margin:0 8px;width:128px;height:24px;line-height:24px;vertical-align:middle;border:1px solid #767665}
+.lottery-input{padding-bottom:12px;padding-left:20px;line-height:44px;font-size:14px;color:#797979}
+.lottery-btn{display:block;margin-left:100px;margin-top:15px;width:131px;height:50px;background-position:0 -44px}
+.lottery-btn_already{background-position:-130px -44px}
+.prize{width:390px;padding-left:8px;overflow:hidden}
+.lottery-item2,.prize,.prize li{float:left}
+.lottery-item2{margin-top:10px}
+.prize li{margin-right:8px;margin-bottom:10px;border:1px solid #F0AE75}
+.prize-item{background:#FF6B00;color:#FFF;text-align:center}
+.prize img{vertical-align:bottom}
+.winning{float:right;width:158px;padding:4px 10px 6px 10px}
+.winning p{margin-bottom:9px;font-size:14px;color:#FF6B00}
+.winning-num{float:left}
+.winning-object{float:right}
+.carouselContent{width:158px;height:162px}
+#carouselContent li{line-height:18px}
+.act-topic{padding-left:28px;background:#FEAA4D;font-size:24px;color:#FFF}
+.act-content{padding:20px}
+.act-rules{padding-left:26px}
+.act-rules li{line-height:26px;list-style-type:square;font-size:14px}
+.play-content{margin-bottom:21px;padding-bottom:16px;border-bottom:1px solid #d4d4d4}
+.play-list{float:left;margin-left:9px;width:223px}
+.play-list p{text-align:center;font-size:14px}
+.dout-content{float:left;padding-left:18px;overflow:hidden}
+.dout-content h3{font-size:20px;color:#FF6D01}
+.dout-content p{font-size:14px}
+.dout-content img{padding:6px 0}
+.contact-list{float:left;margin-left:20px;width:90px}
+.sideNav{position:absolute;left:994px;top:492px;width:106px;height:204px;background:url(../images/sidebg.png) 0 0 no-repeat}
+.sideNav h4{height:32px;text-indent:-9999px}
+.sideNav-item{display:block;padding:8px 0;text-align:center;color:#9f0505}
+.sideNav-item p{font-size:14px;font-weight:bold}
+.mln{margin-left:0}
+.flr{float:right}
+.pl8{padding-left:8px}
+.pl12{padding-left:12px}
+.pl26{padding-left:26px}
+.pl35{padding-left:35px}
+.pl40{padding-left:40px}
+.pt28{padding-top:28px}
+.top13{top:13px}
+.vam{vertical-align:middle}
+.text-center{text-align:center}

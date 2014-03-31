@@ -1,0 +1,788 @@
+/*CSS reset*/
+html {
+    color: #000;
+    background: #FFF;
+}
+body, div,  ul, ol, li,h1, 
+h2, h3, h4, h5, h6, pre, code,
+form, input, button,textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+fieldset, img {
+    border: 0;
+}
+abbr, acronym {
+    border: 0;
+    font-variant: normal;
+}
+:focus {
+    outline: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+input, button, textarea,
+select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+ol, ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption, th {
+    text-align: left;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+body{
+	font: 14px/1.5 "微软雅黑",Tahoma, Helvetica, Arial, sans-serif,"宋体";
+	color: #474747;
+}
+select{
+    border-color: #474747;
+}
+input{
+    outline: none;
+}
+a{
+    color: #474747;
+    text-decoration: none;
+}
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;} /* IE < 8 */
+/**********公用样式**********/
+.wrap{
+    margin: 0 auto;
+    width: 890px;
+}
+.innerWrap{
+    margin-bottom: 40px;
+}
+.mr14{
+    margin-right: 14px;
+}
+.fl{
+    float: left;
+}
+/**********头部样式**********/
+.header{
+    margin: 24px 0;
+}
+.logo{
+    float: left;
+}
+.logo-content{
+    display: block;
+    width: 440px;
+    height: 44px;
+    background: url(../images/logo.png) 0 0 no-repeat;
+    text-indent: -9999px;
+}
+.language{
+    float: right;
+    line-height: 44px;
+}
+.language-item{
+    color: #343434;
+}
+/**********导航样式**********/
+.nav{
+    background: #252424;
+}
+.nav-container{
+    float: left;
+}
+.nav-list{
+    float: left;
+    line-height: 48px; 
+}
+.nav-item{
+    float: left;
+    padding: 0 15px;
+    font-size: 16px;
+}
+.nav-list,.nav-item{
+    color: #fff;
+}
+.nav-item:hover,.nav-item_current{
+    background: #6abc19;
+}
+.line{
+    padding: 0 6px;
+}
+.search{
+    float: right;
+    padding-top: 9px;
+}
+.search-keyword{
+    height: 20px;
+    *height: 16px;
+    padding: 5px 10px;
+    *padding: 7px 10px 6px;/*IE6下对齐问题*/
+    width: 125px;
+    color: #474747;
+}
+.search-button{
+    height: 30px;
+    *height: 29px;
+    padding: 5px 12px;
+    *padding: 6px 12px 4px;/*IE6下对齐问题*/
+    background: #6abc19;
+    cursor: pointer;
+    overflow: visible;/*IE6下input宽度问题*/
+    color: #fff;
+}
+.search-button,.search-keyword{
+    float: left;
+    border: 0;
+}
+
+ /*
+ *  Page：首页
+ *  By: Bevis
+ *  Date: 2013/12/6
+*/
+
+/**********主内容区样式**********/
+.container{
+    margin-top: 32px;
+}
+.newsBox,.contentBox{
+    float: left;
+    width: 425px;
+}
+.mr30{
+    margin-right: 30px;
+}
+.newsNav{
+    margin-bottom: 16px;
+    height: 40px;
+    line-height: 40px;
+    background: #f3f3f3;
+    border: 1px solid #dcdcdc;
+}
+.newsBox-nav{
+    margin-left: -1px;
+}
+.newsBox-nav-item{
+    margin-top: -1px;
+    float: left;
+    padding: 0 18px;
+    line-height: 41px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.newsBox-nav-item_current{
+    line-height: 39px;
+    margin-left: -1px;
+    _position: relative;
+    _margin-bottom: -1px;
+    background: #fff;
+    border-top: 3px solid #6abc19;
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    color: #6abc19;
+}
+.no-bl{
+    border-left: 0px !important;
+}
+.newslist{
+    border-top: 2px dotted #e2e2e2;
+}
+.newslist,.informationModule-list{
+    margin-left: 20px;
+    list-style: disc;
+    vertical-align: middle;/*IE6下对齐问题*/
+}
+.newslist_noboder{
+    border: 0;
+}
+.newslist-content{
+    display: block;
+    line-height: 40px;
+}
+.list-title{
+    float: left;
+}
+.list-date{
+    float: right;
+}
+.list-title,.list-date{
+    cursor: pointer;
+}
+/**********快捷通道样式**********/
+.interactiveModule-item{
+    display: block;
+    width: 210px;
+    height: 154px;
+    line-height: 154px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    zoom: 1;
+}
+.survey{
+    background: #63b269;
+}
+.complaints{
+    background: #eaa03e;
+}
+.advisory{
+    background: #f0785b;
+}
+.opinion{
+    background: #65bfd0;
+}
+.mr15{
+    margin-right: 15px;
+}
+.mb15{
+    margin-bottom: 15px;
+}
+.interactiveModule{
+    float: left;
+}
+.interactiveModule-list{
+    width: 435px;
+}
+.interactiveModule-list li{
+    float: left;
+}
+.interactiveModule-item-img{
+    *margin: 59px 0;/*修复IE6下a标签line-height失效*/
+    vertical-align: middle;
+}
+/**********规定标准样式**********/
+.informationModule{
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #9fb48a; 
+}
+.informationModule-title{
+    float: left;
+    padding-left: 14px;
+    border-left: 6px solid #6abc19;
+    font-weight: bold;
+}
+.informationModule-more{
+    float: right;
+}
+.informationModule-more:hover{
+    color: #6abc19;
+}
+.informationModule-title,.informationModule-more{
+    font-size: 16px;
+}
+.informationModule-list-content{
+    display: block;
+    line-height: 25px;
+}
+.informationModule-list-content:hover,.newslist-content:hover{
+    color: #6abb1b;
+}
+.mr40{
+    margin-right: 40px;
+}
+/**********动物搜索样式**********/
+.animal-search{
+    margin-bottom: 16px;
+    border: 1px solid #9fb48a;
+}
+.animal-searchBar{
+    margin-bottom: 24px;
+    padding: 16px 0;
+    border-bottom: 1px solid #9fb48a;
+    z-index: 2;
+}
+.searchBar-keyword{
+    width: 430px;
+    height: 20px;
+    *height: 14px;
+    vertical-align: top;
+    padding: 8px 12px 7px;
+    *padding: 11px 12px 10px;
+    border: 1px solid #9fb48a;
+}
+.searchBar-button{
+    height: 37px;
+    margin-left: -4px;
+    padding: 8px 34px;
+    font-size: 16px;
+    overflow: visible;
+    color: #fff;
+    border: 0;
+    background: #6abc19;
+    cursor: pointer;
+}
+.search-tip{
+    padding: 9px 0 8px 12px;
+    zoom: 1;
+}
+.animal-search-condition{
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.animal-search-condition select{
+    margin-left: 18px;
+    vertical-align: top;
+    z-index: 1;
+}
+#provenance{
+    width: 120px;
+    border: 1px solid #bebebe;
+}
+.check-item{
+   margin-left: 18px; 
+}
+/**********搜索结果样式**********/
+.searchResults{
+    width: 100%;
+    margin-bottom: 18px;  
+}
+.searchResults,.searchResults td,.searchResults th{
+    border: 1px solid #cfd9cb;
+}
+.searchResults td,.searchResults th{
+    padding-left: 8px;
+    line-height: 38px;
+}
+.searchResults th{
+    font-size: 16px;
+}
+.searchResults td{
+    font-weight: normal;
+}
+.searchResults td a{
+    text-decoration: underline;
+}
+.searchResults td a:hover{
+    color: #6abb1b;
+}
+.cardinalNum-highlight{
+    background: #f6f8f0;
+}
+.searchResults-page{
+    float: right;
+    margin-bottom: 36px;
+    line-height: 38px;
+    border: 1px solid #cfd9cb;
+    background: #f1f1f1;
+}
+.searchResults-page-item{
+    float: left;
+    padding: 0 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#searchResults-page-item_current{
+    margin-top: -1px;
+    line-height: 40px;
+    background: #88cc5a;
+    font-weight: normal;
+}
+#searchResults-page-item_current:hover{
+    color: #474747;
+}
+.searchResults-page-item:hover{
+    color: #88cc5a;
+}
+/**********底部开始样式**********/
+.footer{
+    margin-top: 50px;
+    padding: 38px 0;
+    border-top: 1px solid #9fb48a;
+}
+.footer-content{
+    text-align: center;
+}
+
+ /*
+ *  Page：网上咨询
+ *  By: Bevis
+ *  Date: 2013/12/6
+*/
+
+/**********侧边导航样式**********/
+.sideBar{
+    float: left;
+    width: 230px;
+    padding-right: 20px;
+}
+.column-nav{
+    margin-bottom: 20px;
+    padding: 20px 16px 30px;
+    background: #f2f2f2;
+}
+.column-nav-item{
+    display: block;
+    padding-left: 20px;
+    line-height: 40px;
+    background: #8c887f;
+    color: #fff;
+    font-size: 16px;
+    zoom: 1; /*修复IE6下li底部空行的BUG*/
+}
+.column-nav-list{
+    margin-bottom: 1px;
+}
+.column-nav-item:hover,.column-nav-item_current{
+    background: #6abc19;
+}
+.links-list{
+    padding-left: 20px;
+    line-height: 28px;
+}
+.links-list:hover{
+    color: #6abc19;
+}
+/**********正文区域样式**********/
+.mainContainer{
+    float: left;
+    width: 520px;
+    padding: 20px 60px 50px;
+    background: #f2f2f2;
+}
+.informationModule-item{
+    font-size: 14px;
+}
+.informationModule-item a:hover{
+    color: #6abc19;
+}
+/**********文章区域样式**********/
+.article-title{
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    line-height: 39px;
+    background: url(../images/title-bg.png) 0 0 repeat-x;
+}
+.question-search{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 6px 0 6px 10px;
+}
+#question-keyword{
+    width: 174px;
+    margin-right: 6px;
+    padding: 6px 10px;
+    *padding: 9px 10px;
+    border: 1px solid #c3c2c2;
+    color: #939587;
+}
+.question-search-btn{
+    margin-left: 4px;
+    padding: 7px 20px 6px;
+    background: #6abc19;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    overflow: visible;/*IE6下input宽度问题*/
+    border: 0;
+    cursor: pointer;
+}
+.question-search label,#question-keyword,.question-search-btn{
+    font-size: 16px;
+    vertical-align: middle;
+}
+.question-content{
+    padding: 0 24px 24px;
+} 
+.question-list{
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border-top: 1px solid #9fb48a;
+    font-size: 16px;
+}
+.ntb{
+    border-top: 0;
+}
+.quesiton-asker{
+    font-weight: bold;
+} 
+.question-list a:hover{
+    text-decoration: underline;
+}
+.question-page{
+    text-align: center;
+}
+.question-page a{
+    padding-right: 12px;
+}
+.question-page a:hover{
+    color: #6abc19;
+}
+#question-page-input{
+    width: 30px;
+    padding: 2px 10px;
+    border: 1px solid #e3e3e3;
+}
+
+ /*
+ *  Page：新闻页面
+ *  By: Bevis
+ *  Date: 2013/12/6
+*/
+
+/**********新闻文章样式**********/
+.article-container{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #9fb48a;
+}
+.article-topic{
+    margin: 10px 0;
+    font-size: 22px;
+}
+.article-imformation{
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+.article-imformation a:hover{
+    color: #6abc19;
+}
+.tac{
+    text-align: center;
+}
+.article-img{
+    margin: 12px 0;
+}
+.article-content{
+    text-indent: 2em;
+}
+.mt28{
+    margin-top: 28px;
+}
+.news-page{
+    padding-top: 12px;
+}
+.news-page p{
+    margin-top: 4px;
+}
+.news-page-item:hover{
+    color: #6abc19;
+}
+
+ /*
+ *  Page：动物信息页面
+ *  By: Bevis
+ *  Date: 2013/12/6
+*/
+
+/**********动物信息样式**********/
+.animal-imformation{
+    width: 100%;
+    margin-top: 25px;
+    border: 1px solid #e6e6e6;
+}
+.animal-imformation td{
+    padding: 14px 0 14px 12px;
+    border: 1px solid #e6e6e6;
+    font-size: 16px;
+}
+.animal-imformation .animal-td1{
+    width: 20%;
+    padding-right: 10px;
+    background: #f8f8f8;
+    text-align: right;
+    font-weight: bold;
+}
+
+ /*
+ *  Page：调查页面
+ *  By: Bevis
+ *  Date: 2013/12/6
+*/
+
+/**********调查评议样式**********/
+.survey-title{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.survey-list{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.survey-list-title{
+    font-weight: bold;
+    color: #6abc19;
+}
+.survey-list-content{
+    padding-left: 30px;
+    padding-top: 12px;
+}
+#suggestion01{
+    vertical-align: middle;
+}
+#survey-submit,#survey-view{
+    width: 70px;
+    height: 28px;
+    border: 0;
+    color: #fff;
+    background-image: url(../images/btn01.png);
+    cursor: pointer;
+}
+.survey-submit{
+    background-position: 0 29px;
+}
+.survey-submit:hover{
+    background-position: 0 0;
+}
+.survey-view{
+    background-position: 70px 29px;
+}
+.survey-view:hover{
+    background-position: 70px 0;
+}
+.survey-operate{
+    margin-top: 50px;
+    text-align: center;
+}
+.pl62{
+    padding-left: 62px;
+}
+.ml26{
+    margin-left: 26px;
+}
+/*  
+*   Page: 网上咨询02页--consultng02.html
+*   By: zdc
+*   Date: 2013/12/7   
+*/
+
+/**********文章区域样式**********/
+.article-table{
+    width: 510px;
+    margin: 45px auto 0px;
+    background-color: white;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+.article-table td{
+    border:1px solid rgb(211,211,211);
+    padding: 8px;
+}
+.article-table-content{
+    width: 23%;
+    text-align: right;
+    vertical-align: top;
+}
+
+/*  
+*   Page: 意见征集
+*   By: zdc
+*   Date: 2013/12/7   
+*/
+
+/**********文章区域样式**********/
+.cplaintsArticle-title{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.cplaintsArticleRelated{
+    text-align: center;
+    font-size: 14px;
+    margin:20px auto 45px;
+}
+.cplaintsArticleDate{
+    display: inline;
+    margin-right: 10px;
+}
+.cplaintsArticleFont{
+    display: inline;
+}
+.cplaintsArticleFont a:hover{
+    color: #6abc19;
+}
+.cplaintsArticleMessage{
+    font-size: 14px;
+}
+.cplaintsArticleAttachItem{
+    margin-top: 20px;
+    margin-left: 25px;
+    list-style-type: decimal;
+}
+.cplaintsArticleAttachItem li{
+     margin-left: 20px;   
+}
+.cplaintsArticleDepartment{
+    text-align: right;
+    margin-top: 20px;
+}
+.cplaintsArticleFooter{
+    text-align: right;
+    margin-top: 35px;
+}
+.cplaintsArticleFooter a:hover{
+    color: #6abc19;
+}
+/**********留言区域开始**********/
+/*
+*   State：留言区域的样式在“意见征集页面”和“网上咨询02页”是一样的
+*   By：zdc
+*   Date:2013/12/07
+*/
+.cplaintsSendMessage-title{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #9fb48a;
+}
+.cplaintsSendMessage h3{
+    margin-top: 60px;
+    padding-left: 14px;
+    border-left: 6px solid #6abc19;
+    font-size: 16px;
+    font-weight: bold;
+}
+.cplaintsSendMessageForm{
+    margin-top: 10px;
+}
+.cplaintsSendMessageForm-people{
+    margin-bottom: 10px;
+}
+.cplaintsSendMessageForm-text{
+    margin-bottom: 10px;
+}
+.cplaintsSendMessageForm-text textarea{
+    width: 470px;
+    height: 140px;    
+    resize: none;
+    overflow: auto; /*解决IE下textarea产生滚动条*/
+    vertical-align: top; 
+}
+.cplaintsSendMessageForm-submit{
+    padding:5px 20px;
+    border:none;
+    cursor:pointer;
+    background-color: #6abc19;
+    overflow: visible;
+    font-size: 16px;
+    color:white;
+    margin-left: 45px;
+}
+.disable{
+    display: none;
+}

@@ -1,0 +1,141 @@
+.wrapper{
+			font-family: '微软雅黑'
+}
+h2{ cursor:default;color:#5AC2FE;font-size:18px; }
+/*header*/
+.header{
+	background: url(../images/headerBg.jpg) 0 0 repeat-x;
+}
+.inner{
+	margin: 0 auto;
+	padding-bottom: 62px;
+	width: 984px;
+	overflow: hidden;
+}
+.logo{
+	display: block;
+	float: left;
+	height: 116px;
+	width: 196px;
+	background: url(../images/tk.jpg) 0 0 no-repeat;
+	text-indent: -9999px;
+}
+.nav{
+	float: left;
+	padding: 50px 0 0 86px;
+	width: 478px;
+	overflow: hidden;
+	zoom: 1;
+}
+.nav li{
+	float: left;
+}
+.nav li a{
+	display: block;
+	margin-right: 32px;
+	height: 39px;
+	text-indent: -9999px;
+}
+a.shouye{
+	width: 46px;
+	background: url(../images/shouyeover.jpg) 0 0 no-repeat;
+}
+a.shouye:hover{background: url(../images/shouyeon.jpg) 0 0 no-repeat;}
+a.anli{
+	width: 100px;
+	background: url(../images/anliover.jpg) 0 0 no-repeat;
+}
+a.anli:hover{
+	background: url(../images/anlion.jpg) 0 0 no-repeat;
+}
+a.about{
+	width: 99px;
+	background: url(../images/aboutover.jpg) 0 0 no-repeat;
+}
+a.about:hover{
+	background: url(../images/abouton.jpg) 0 0 no-repeat;
+}
+a.contact{
+	width: 99px;
+	background: url(../images/contacton.jpg) 0 0 no-repeat;
+}
+
+#search{
+	float: left;
+	margin-top: 55px;
+	border: 2px solid #cecece;
+}
+#search input{float: left;}
+#searchInput{
+	padding: 8px 0 8px 8px;
+	width: 180px;
+	height: 14px;
+	border: none;
+	background: #F5F5F5;
+}
+#searchSurmit{
+	cursor: pointer;
+	border: none;
+	width: 32px;
+	height: 30px;
+	background: url(../images/search.jpg);
+	text-indent: -9999px;
+}
+/*content*/
+.content{
+		margin:auto;
+		overflow: hidden;
+		text-align:center;
+		width:984px;
+}
+/*leftPan*/
+.leftPan{
+		cursor:default;
+		color:#868686;
+		float:left;
+		font-size: 14px;
+		margin-top:50px;
+		text-align: left;
+		width:674px;
+}
+.leftPan p{margin-bottom: 40px;}
+.leftPan img{margin-bottom: 40px;}
+.leftPan .p1{font-size:18px;margin-bottom: 25px;}
+/*rightPan*/
+.rightPan{
+			border:1px solid #D4D4D4;
+			float:right;
+			margin:50px auto 0;
+			text-align:center;
+			width:260px;
+}
+.rightPan h2{cursor:default;padding:15px 0 24px;}
+.rightPan li{float:none;margin:0;}
+.rightPan li p{
+				cursor:default;
+				padding:20px 0 20px 67px;
+				_padding-left:0px;
+				width:127px;
+			}
+.rightPan li a{color:#868686;font-size:14px;}
+.rightPan li a:hover{text-decoration: underline;}
+/*footer*/
+.footer{
+		background: url("../images/footer_bg.png") repeat-x scroll 0 0;
+		height:95px;
+		position: relative;
+		top:80px;
+
+		
+}
+.inner01{
+		margin:auto;
+		overflow: hidden;
+		text-align: center;
+		width:984px;
+	}
+.menu a,.inner01 p{color: #CFCFCF;font-size:14px;}
+.menu{color:#CFCFCF;padding-top:16px;}
+.menu a{padding:0 5px 7px;}
+.menu a:hover{color:#5ac2fe;}
+.inner01 p{cursor:default;}

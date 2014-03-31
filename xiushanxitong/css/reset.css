@@ -1,0 +1,61 @@
+html {
+    color: #000;
+    background: #FFF;
+}
+body, div,  ul, ol, li,h1, 
+h2, h3, h4, h5, h6, pre, code,
+form, input, button,textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+fieldset, img {
+    border: 0;
+}
+abbr, acronym {
+    border: 0;
+    font-variant: normal;
+}
+:focus {
+    outline: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+input, button, textarea,
+select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+ol, ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption, th {
+    text-align: left;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+body{
+	font-family: "Helvetica Neue",Helvetica,STheiti,微软雅黑,宋体,Arial,Tahoma,sans-serif,serif;
+	font-size: 14px;
+	color: #666d70;
+    line-height: 1;
+}
+select{
+    border-color: #d3d3d4;
+}
+input{
+    outline: none;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>tkengine修缮管理系统</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tab.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+					//隐藏所有消息主体内容"div.msgBody"
+					$('.msgBody').hide();
+					$('#msgListClick .msgHead').click(function(){
+						$(this).next('.msgBody').slideToggle(300).siblings('.msgBody').slideUp('fast');
+						
+					});
+				});
+	</script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<p class="logo">网上报修系统</p>
+			<p class="day">今天是: 2013年05月14日 星期二</p>
+			<p class="logout">欢迎您，管理员 | <a href="#" id="out">退出</a></p>
+		</div>
+		<div id="msgListClick" class="sideBar">
+			<p class="msgHead tab1">维修受理</p>
+			<div class="msgBody div1">
+				<ul>
+						<li class="tabnow">网上报修</li>
+						<li>受理情况</li>
+				</ul>
+			</div>
+			<p class="msgHead tab2">维修查询与统计</p>
+			<div class="msgBody div2">
+				<ul>
+						<li>维修查询</li>
+						<li>维修统计</li>
+				</ul>
+			</div>
+			<p class="msgHead tab3">用户设置</p>
+			<div class="msgBody div3">
+				<ul>
+						<li>添加用户</li>
+						<li>所有用户</li>
+				</ul>
+			</div>
+			<p class="msgHead tab4">系统设置</p>
+			<div class="msgBody div4">
+				<ul>
+						<li>相关参数</li>
+						<li>管理条项</li>
+						<li>信息发布</li>
+				</ul>
+			</div>
+		</div>
+		<div class="mainArea">
+		
+		</div>
+	</div>
+</body>
+</html>
